@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Örökvirág — Prémium művirág atelier</title>
+    <meta
+      name="description"
+      content="Örökvirág: kézzel készített, prémium művirág kompozíciók otthonra és ajándéknak. Időtálló szépség, gondozás nélkül."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Outfit:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-glow" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Örökvirág kezdőlap">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Örökvirág
+      </a>
+      <nav class="nav" aria-label="Fő navigáció">
+        <a href="#termekek">Termékek</a>
+        <a href="#kapcsolat">Kapcsolat</a>
+      </nav>
+      <a class="nav-cta" href="#kapcsolat">Megrendelés</a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-label="Bemutató">
+        <div class="hero-media">
+          <img
+            src="assets/hero-bouquet.jpg"
+            alt="Prémium peónia és rózsa művirág csokor márvány asztalon"
+            width="1600"
+            height="900"
+            fetchpriority="high"
+          />
+        </div>
+        <div class="hero-veil" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="brand-hero">Örökvirág</p>
+          <h1>Időtálló szépség, gondozás nélkül</h1>
+          <p class="hero-lead">
+            Kézzel készített művirág kompozíciók, amelyek hónapokon át megőrzik
+            a friss virágok eleganciáját.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#termekek">Termékek megtekintése</a>
+            <a class="btn btn-ghost" href="#kapcsolat">Ajánlatkérés</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="termekek" class="products" aria-labelledby="products-title">
+        <div class="section-intro">
+          <p class="eyebrow">Kollekció</p>
+          <h2 id="products-title">Készített művirágaink</h2>
+          <p>
+            Minden darabot stúdióban állítunk össze — természetes anyagokkal és
+            tartós, prémium szirmokkal.
+          </p>
+        </div>
+
+        <div class="product-grid">
+          <article class="product" data-product="Peónia csokor">
+            <figure class="product-media">
+              <img
+                src="assets/product-peony.jpg"
+                alt="Púderrózsaszín peónia művirág csokor"
+                width="800"
+                height="600"
+                loading="lazy"
+              />
+            </figure>
+            <div class="product-body">
+              <h3>Peónia csokor</h3>
+              <p>Púderrózsaszín peóniák selyemszalaggal, ajándéknak és asztaldísznek.</p>
+              <div class="product-meta">
+                <span class="price">24 900 Ft</span>
+                <button type="button" class="btn btn-soft order-btn">
+                  Megrendelem
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product" data-product="Orchidea kompozíció">
+            <figure class="product-media">
+              <img
+                src="assets/product-orchid.jpg"
+                alt="Fehér orchidea művirág kerámia vázában"
+                width="800"
+                height="600"
+                loading="lazy"
+              />
+            </figure>
+            <div class="product-body">
+              <h3>Orchidea kompozíció</h3>
+              <p>Minimalista fehér orchidea matte kerámia vázában — modern enteriőrökbe.</p>
+              <div class="product-meta">
+                <span class="price">32 500 Ft</span>
+                <button type="button" class="btn btn-soft order-btn">
+                  Megrendelem
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product" data-product="Eukaliptusz koszorú">
+            <figure class="product-media">
+              <img
+                src="assets/product-wreath.jpg"
+                alt="Eukaliptusz és zöld művirág koszorú"
+                width="800"
+                height="600"
+                loading="lazy"
+              />
+            </figure>
+            <div class="product-body">
+              <h3>Eukaliptusz koszorú</h3>
+              <p>Botanikus zöld koszorú ajtóra vagy falra — egész évben friss hangulat.</p>
+              <div class="product-meta">
+                <span class="price">18 900 Ft</span>
+                <button type="button" class="btn btn-soft order-btn">
+                  Megrendelem
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="kapcsolat" class="contact" aria-labelledby="contact-title">
+        <div class="contact-layout">
+          <div class="contact-copy">
+            <p class="eyebrow">Kapcsolat</p>
+            <h2 id="contact-title">Üzenet vagy megrendelés</h2>
+            <p>
+              Írd meg, melyik kompozíció érdekel, és milyen alkalomra szeretnéd.
+              1–2 munkanapon belül válaszolunk.
+            </p>
+            <ul class="contact-details">
+              <li>
+                <span>Email</span>
+                <a href="mailto:hello@orokvirag.hu">hello@orokvirag.hu</a>
+              </li>
+              <li>
+                <span>Telefon</span>
+                <a href="tel:+36301234567">+36 30 123 4567</a>
+              </li>
+              <li>
+                <span>Műhely</span>
+                <span>Budapest — előzetes egyeztetéssel</span>
+              </li>
+            </ul>
+          </div>
+
+          <form class="contact-form" id="order-form" novalidate>
+            <div class="field-row">
+              <label>
+                Név
+                <input type="text" name="name" autocomplete="name" required />
+              </label>
+              <label>
+                Email
+                <input type="email" name="email" autocomplete="email" required />
+              </label>
+            </div>
+            <label>
+              Telefon
+              <input type="tel" name="phone" autocomplete="tel" />
+            </label>
+            <label>
+              Érdekelt termék
+              <select name="product" id="product-select">
+                <option value="">Válassz terméket…</option>
+                <option value="Peónia csokor">Peónia csokor</option>
+                <option value="Orchidea kompozíció">Orchidea kompozíció</option>
+                <option value="Eukaliptusz koszorú">Eukaliptusz koszorú</option>
+                <option value="Egyedi kérés">Egyedi kérés</option>
+              </select>
+            </label>
+            <label>
+              Üzenet / megrendelés
+              <textarea
+                name="message"
+                rows="5"
+                required
+                placeholder="Pl. ajándéknak szeretném, színpreferencia, darabszám…"
+              ></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary btn-full">
+              Üzenet küldése
+            </button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p class="footer-brand">Örökvirág</p>
+      <p>© <span id="year"></span> Örökvirág Atelier. Minden jog fenntartva.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
