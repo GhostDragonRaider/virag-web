@@ -1,6 +1,6 @@
 # Örökvirág
 
-Prémium bemutatóoldal kézzel készített művirágok értékesítéséhez.
+Prémium bemutatóoldal kézzel készített szalagvirágok értékesítéséhez.
 
 ## Tartalom
 
